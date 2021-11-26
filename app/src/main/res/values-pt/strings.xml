@@ -1,0 +1,129 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <string name="app_name">COVID Hunter</string>
+
+    <!-- MainActivity -->
+    <string name="degree_of_risk">ESTOU EM PERIGO?</string>
+    <string name="unknown_risk">RISCO DESCONHECIDO</string>
+    <string name="unknown_county">CONCELHO DESCONHECIDO</string>
+    <!-- ... -->
+
+
+    <!-- TestItem -->
+    <string name="test_item_date">DATA DO TESTE</string>
+    <string name="test_item_result">RESULTADO DO TESTE</string>
+    <string name="test_item_more_info_button">+ INFOS </string>
+    <!-- ... -->
+
+
+    <!-- CountyItem -->
+    <string name="county_item_name">NOME DO CONCELHO</string>
+    <string name="county_item_risk">RISCO:</string>
+    <string name="county_item_risk_degree">GRAU DE RISCO</string>
+    <string name="county_item_district">• DISTRITO:</string>
+    <string name="county_item_actual_district">DISTRITO</string>
+    <string name="county_item_incidence">• INCIDÊNCIA:</string>
+    <string name="county_item_actual_incidence">INCIDÊNCIA</string>
+    <string name="county_item_incidence_range">• INTERVALO DE INCIDÊNCIA:</string>
+    <string name="county_item_actual_incidence_range">INTERVALO</string>
+    <string name="county_item_last_update">ÚLTIMA ATUALIZAÇÃO:</string>
+    <string name="county_item_actual_last_update">DD/MM/AAAA</string>
+    <string name="county_item_population">• POPULAÇÃO:</string>
+    <string name="county_item_actual_population">POPULAÇÃO</string>
+    <string name="county_item_confirmed">• CASOS CONFIRMADOS</string>
+    <string name="county_item_actual_confirmed">CONFIRMADOS</string>
+    <string name="county_item_cases_per_habitants">CASOS POR HABITANTES</string>
+    <!-- ... -->
+
+
+    <!-- ContactsFragment -->
+    <string name="contacts_frag_contacts">CONTACTOS</string>
+    <string name="contacts_frag_dgs_plataform">Plataforma da DGS</string>
+    <string name="contacts_frag_dgs_email" tools:ignore="Typos">covid19.min-saude.pt</string>
+    <string name="contacts_frag_social_line">Linha de Segurança Social</string>
+    <string name="contacts_frag_social_number">+351 300 502 502</string>
+    <string name="contacts_frag_sns_24_line">Linha SNS 24</string>
+    <string name="contacts_frag_sns_24_number">+351 808 24 24 24</string>
+    <string name="contacts_frag_sns24_email">atendimento@SNS24.gov.pt</string>
+    <string name="contacts_frag_consular_office">Linha de emergencia consular</string>
+    <string name="contacts_frag_consular_number">+351 961 706 472</string>
+    <string name="contacts_frag_consular_email">gec@mne.pt</string>
+    <string name="contacts_frag_call_button">LIGAR</string>
+    <!-- ... -->
+
+
+    <!-- CountyListFragment -->
+    <string name="county_list_frag_councils">CONCELHOS</string>
+    <!-- ... -->
+
+
+    <!-- DashBoardFragment -->
+    <string name="dashboard_frag_dashboard">DASHBOARD</string>
+    <string name="dashboard_frag_active_cases">Casos ativos</string>
+    <string name="dashboard_frag_new_cases">Novos casos</string>
+    <string name="dashboard_frag_critical_cases">Casos críticos</string>
+    <string name="dashboard_frag_confirmed_cases">Casos confirmados</string>
+    <string name="dashboard_frag_recovered">Recuperados</string>
+    <string name="dashboard_frag_hospitalized">Hospitalizados</string>
+    <string name="dashboard_frag_deaths">Óbitos</string>
+    <string name="dashboard_frag_chart_population">População</string>
+    <string name="dashboard_frag_valueless">- -</string>
+    <!-- ... -->
+
+
+    <!-- NewTestFormFragment -->
+    <string name="new_test_form_frag_new_test">NOVO TESTE</string>
+    <string name="new_test_form_frag_photo_button">Adiciona uma foto do teste</string>
+    <string name="new_test_form_frag_date_field">Indica a data do teste</string>
+    <string name="new_test_form_frag_location_field">Indica o local do teste</string>
+    <string name="new_test_form_frag_submit_button">SUBMETER</string>
+    <string name="new_test_form_frag_cancel_button">Cancelar</string>
+    <!-- ... -->
+
+
+    <!-- SettingsFragment -->
+    <string name="settings_frag_settings">DEFINIÇÕES</string>
+    <string name="settings_frag_accelerometer">ACELERÓMETRO</string>
+    <string name="settings_frag_erase_shaking">Agitar para limpar filtro</string>
+    <string name="settings_frag_dark_theme">MODO ESCURO</string>
+    <string name="settings_frag_dark_theme_enable">Ativar</string>
+    <string name="settings_frag_dark_theme_disable">Disativar</string>
+    <string name="settings_frag_dark_theme_automatic">Automatico</string>
+    <!-- ... -->
+
+
+    <!-- TestInfosFragment -->
+    <string name="test_infos_frag_details">DETALHES DO TESTE</string>
+    <string name="test_infos_frag_details_date">DATA DO TESTE:</string>
+    <string name="test_infos_frag_details_actual_date">DATA</string>
+    <string name="test_infos_frag_details_location">LOCAL DO TESTE:</string>
+    <string name="test_infos_frag_details_actual_location">LOCAL</string>
+    <string name="test_infos_frag_details_result">RESULTADO DO TESTE:</string>
+    <string name="test_infos_frag_details_actual_result">RESULTADO</string>
+    <string name="test_infos_frag_details_back_button">Voltar</string>
+    <string name="test_infos_frag_details_delete_button">Eliminar</string>
+    <!-- ... -->
+
+
+    <!-- TestListFragment -->
+    <string name="test_list_frag_tests">LISTA DOS TESTES</string>
+    <string name="test_list_frag_tests_new_fab">NOVO</string>
+    <!-- ... -->
+
+
+    <!-- AppBarButtons -->
+    <string name="bar_buttons_contacts">Contactos</string>
+    <string name="bar_buttons_councils">Concelhos</string>
+    <string name="bar_buttons_dashboard">Dashboard</string>
+    <string name="bar_buttons_tests">Testes</string>
+    <string name="bar_buttons_settings">Definições</string>
+    <!-- ... -->
+
+
+    <!-- SearchFilter -->
+    <string name="search_filter_apply_filter">APLICAR FILTRO</string>
+    <!-- ... -->
+
+</resources>

@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="app_name">COVID Hunter</string>
+
+    <!-- MainActivity -->
+    <string name="degree_of_risk">AM I IN DANGER?</string>
+    <string name="unknown_risk">UNKNOWN RISK</string>
+    <string name="unknown_county">UNKNOWN COUNTY</string>
+    <!-- ... -->
+
+    <!-- TestItem -->
+    <string name="test_item_date">TEST DATE</string>
+    <string name="test_item_result">TEST_RESULT</string>
+    <string name="test_item_more_info_button">+ INFOS </string>
+    <!-- ... -->
+
+    <!-- CountyItem -->
+    <string name="county_item_name">COUNTY NAME</string>
+    <string name="county_item_risk">RISK:</string>
+    <string name="county_item_risk_degree">DEGREE OF RISK</string>
+    <string name="county_item_district">• DISTRICT:</string>
+    <string name="county_item_actual_district">DISTRICT</string>
+    <string name="county_item_incidence">• INCIDENCE:</string>
+    <string name="county_item_actual_incidence">INCIDENCE</string>
+    <string name="county_item_incidence_range">• INCIDENCE RANGE:</string>
+    <string name="county_item_actual_incidence_range">INCIDENCE RANGE</string>
+    <string name="county_item_last_update">LAST UPDATE:</string>
+    <string name="county_item_actual_last_update">DD/MM/YYYY</string>
+    <string name="county_item_population">• POPULATION:</string>
+    <string name="county_item_actual_population">POPULATION</string>
+    <string name="county_item_confirmed">• CONFIRMED CASES</string>
+    <string name="county_item_actual_confirmed">CONFIRMED</string>
+    <string name="county_item_cases_per_habitants">CASES PER HABITANTS</string>
+    <!-- ... -->
+
+    <!-- ContactsFragment -->
+    <string name="contacts_frag_contacts">CONTACTS</string>
+    <string name="contacts_frag_dgs_plataform">DGS Platform</string>
+    <string name="contacts_frag_dgs_email">covid19.min-saude.pt</string>
+    <string name="contacts_frag_social_line">Social Security Line</string>
+    <string name="contacts_frag_social_number">+351 300 502 502</string>
+    <string name="contacts_frag_sns_24_line">SNS Line 24</string>
+    <string name="contacts_frag_sns_24_number">+351 808 24 24 24</string>
+    <string name="contacts_frag_sns24_email">atendimento@SNS24.gov.pt</string>
+    <string name="contacts_frag_consular_office">Consular Emergency Office</string>
+    <string name="contacts_frag_consular_number">+351 961 706 472</string>
+    <string name="contacts_frag_consular_email">gec@mne.pt</string>
+    <string name="contacts_frag_call_button">CALL</string>
+    <!-- ... -->
+
+    <!-- CountyListFragment -->
+    <string name="county_list_frag_councils">COUNCILS</string>
+    <!-- ... -->
+
+    <!-- DashBoardFragment -->
+    <string name="dashboard_frag_dashboard">DASHBOARD</string>
+    <string name="dashboard_frag_active_cases">Active cases</string>
+    <string name="dashboard_frag_new_cases">New cases</string>
+    <string name="dashboard_frag_critical_cases">Critical cases</string>
+    <string name="dashboard_frag_confirmed_cases">Confirmed cases</string>
+    <string name="dashboard_frag_recovered">Recovered</string>
+    <string name="dashboard_frag_hospitalized">Hospitalized</string>
+    <string name="dashboard_frag_deaths">Deaths</string>
+    <string name="dashboard_frag_chart_population">Population</string>
+    <string name="dashboard_frag_valueless">- -</string>
+    <!-- ... -->
+
+    <!-- NewTestFormFragment -->
+    <string name="new_test_form_frag_new_test">NEW TEST FORM</string>
+    <string name="new_test_form_frag_photo_button">Add a photo of the test</string>
+    <string name="new_test_form_frag_date_field">Indicate the test date</string>
+    <string name="new_test_form_frag_location_field">Indicate the test location</string>
+    <string name="new_test_form_frag_submit_button">SUBMIT</string>
+    <string name="new_test_form_frag_cancel_button">Cancel</string>
+    <!-- ... -->
+
+    <!-- SettingsFragment -->
+    <string name="settings_frag_settings">SETTINGS</string>
+    <string name="settings_frag_accelerometer">ACCELEROMETER</string>
+    <string name="settings_frag_erase_shaking">Erase filter by shaking</string>
+    <string name="settings_frag_dark_theme">DARK THEME</string>
+    <string name="settings_frag_dark_theme_enable">Enable</string>
+    <string name="settings_frag_dark_theme_disable">Disable</string>
+    <string name="settings_frag_dark_theme_automatic">Automatic</string>
+    <!-- ... -->
+
+    <!-- TestInfosFragment -->
+    <string name="test_infos_frag_details">TEST DETAILS</string>
+    <string name="test_infos_frag_details_date">TEST DATE:</string>
+    <string name="test_infos_frag_details_actual_date">DATE</string>
+    <string name="test_infos_frag_details_location">TEST LOCATION:</string>
+    <string name="test_infos_frag_details_actual_location">LOCATION</string>
+    <string name="test_infos_frag_details_result">TEST RESULT:</string>
+    <string name="test_infos_frag_details_actual_result">RESULT</string>
+    <string name="test_infos_frag_details_back_button">Back</string>
+    <string name="test_infos_frag_details_delete_button">Delete</string>
+    <!-- ... -->
+
+    <!-- TestListFragment -->
+    <string name="test_list_frag_tests">TEST LIST</string>
+    <string name="test_list_frag_tests_new_fab">NEW</string>
+    <!-- ... -->
+
+    <!-- AppBarButtons -->
+    <string name="bar_buttons_contacts">Contacts</string>
+    <string name="bar_buttons_councils">Councils</string>
+    <string name="bar_buttons_dashboard">Dashboard</string>
+    <string name="bar_buttons_tests">Tests</string>
+    <string name="bar_buttons_settings">Settings</string>
+    <!-- ... -->
+
+    <!-- SearchFilter -->
+    <string name="search_filter_apply_filter">APPLY FILTER</string>
+    <!-- ... -->
+
+</resources>

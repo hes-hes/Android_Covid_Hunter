@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pt.ulusofona.deisi.a2020.cm.g28.ui.activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:background="@color/blue_900"
+                >
+
+                <Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentInsetStart="0dp"
+                    android:background="@color/bars_and_fab"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/app_name"
+                        android:gravity="center"
+                        android:textColor="@color/light_text"
+                        android:textSize="35sp"
+                        android:fontFamily="@font/bellyluerd"
+                        >
+                    </TextView>
+
+                </Toolbar>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.75"
+                android:background="@color/background"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        >
+                        <TextView
+                            android:id="@+id/danger_indicator"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/degree_of_risk"
+                            android:textColor="@color/dark_text"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            >
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        >
+
+                        <TextView
+                            android:id="@+id/degree_of_risk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/unknown_risk"
+                            android:textColor="@color/dark_text"
+                            android:textSize="35sp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2.5"
+                        >
+                        <TextView
+                            android:id="@+id/current_county"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/unknown_county"
+                            android:textColor="@color/dark_text"
+                            android:textSize="22sp"
+                            android:gravity="center"
+                            >
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5">
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

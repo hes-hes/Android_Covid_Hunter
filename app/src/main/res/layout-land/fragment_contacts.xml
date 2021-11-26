@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="NestedWeights"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="pt.ulusofona.deisi.a2020.cm.g28.ui.fragments.ContactsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/background"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.75"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bars_and_fab"
+                    android:text="@string/contacts_frag_contacts"
+                    android:textColor="@color/light_text"
+                    android:textSize="18sp"
+                    android:gravity="center">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="9.25"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2.5">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/card_view"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            card_view:cardCornerRadius="20dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="4"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:text="@string/contacts_frag_dgs_plataform"
+                                            android:textSize="20sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_dgs_email"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2.5">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/card_view"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            card_view:cardCornerRadius="20dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:baselineAligned="false">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7.5"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="4"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:text="@string/contacts_frag_social_line"
+                                            android:textSize="20sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_social_number"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/social_line_btn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:backgroundTint="@color/card_view"
+                                        >
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="7"
+                                                android:layout_marginTop="15dp"
+
+                                                >
+
+                                                <ImageView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/ic_baseline_call_24"
+                                                    card_view:tint="@color/dark_text"
+                                                    >
+                                                </ImageView>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="3"
+                                                android:layout_marginBottom="15dp"
+                                                >
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:textColor="@color/dark_text"
+                                                    android:gravity="center"
+                                                    android:text="@string/contacts_frag_call_button"
+                                                    >
+
+                                                </TextView>
+
+                                            </LinearLayout>
+
+
+
+                                        </LinearLayout>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:orientation="vertical"
+                                    >
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2.5">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/card_view"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            card_view:cardCornerRadius="20dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:baselineAligned="false">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7.5"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="4"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:text="@string/contacts_frag_sns_24_line"
+                                            android:textSize="20sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_sns_24_number"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_sns24_email"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/sns_line_btn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:backgroundTint="@color/card_view"
+                                        >
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="7"
+                                                android:layout_marginTop="15dp"
+
+                                                >
+
+                                                <ImageView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/ic_baseline_call_24"
+                                                    card_view:tint="@color/dark_text"
+                                                    >
+                                                </ImageView>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="3"
+                                                android:layout_marginBottom="15dp"
+                                                >
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:textColor="@color/dark_text"
+                                                    android:gravity="center"
+                                                    android:text="@string/contacts_frag_call_button"
+                                                    >
+
+                                                </TextView>
+
+                                            </LinearLayout>
+
+
+
+                                        </LinearLayout>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:orientation="vertical"
+                                    >
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2.5">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/card_view"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            card_view:cardCornerRadius="20dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:baselineAligned="false">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7.5"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="4"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:text="@string/contacts_frag_consular_office"
+                                            android:textSize="20sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_consular_number"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="3"
+                                        android:orientation="horizontal"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/contacts_frag_consular_email"
+                                            android:textSize="15sp"
+                                            android:textColor="@color/light_text"
+                                            android:gravity="center">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/consular_line_btn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:backgroundTint="@color/card_view"
+                                        >
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="7"
+                                                android:layout_marginTop="15dp"
+
+                                                >
+
+                                                <ImageView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/ic_baseline_call_24"
+                                                    card_view:tint="@color/dark_text"
+                                                    >
+                                                </ImageView>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="3"
+                                                android:layout_marginBottom="15dp"
+                                                >
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:textColor="@color/dark_text"
+                                                    android:gravity="center"
+                                                    android:text="@string/contacts_frag_call_button"
+                                                    >
+
+                                                </TextView>
+
+                                            </LinearLayout>
+
+
+
+                                        </LinearLayout>
+
+                                    </androidx.cardview.widget.CardView>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:orientation="vertical"
+                                    >
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentInsetStart="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/background"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/bars_and_fab"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        card_view:cardCornerRadius="20dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:orientation="horizontal"
+                                android:layout_weight="0.5"
+                                >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:orientation="horizontal"
+                                android:layout_weight="1.4"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="7">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/button_contacts"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:backgroundTint="@color/bars_and_fab">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="37dp"
+                                                android:layout_gravity="center"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/ic_baseline_call_24"
+                                                card_view:tint="@color/bar_btn_selected">
+
+                                            </ImageView>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/bar_buttons_contacts"
+                                            android:textSize="11sp"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/bar_btn_selected">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.3"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.4"
+                                android:orientation="horizontal"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="7">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/button_counties"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:backgroundTint="@color/bars_and_fab">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/ic_baseline_location_city_24"
+                                                card_view:tint="@color/light_text"
+                                                >
+                                            </ImageView>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:textSize="11sp"
+                                            android:textAlignment="center"
+                                            android:text="@string/bar_buttons_councils"
+                                            android:textColor="@color/light_text">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.3"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.4"
+                                android:orientation="horizontal"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="7">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/button_dashboard"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:backgroundTint="@color/bars_and_fab">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/ic_baseline_dashboard_24"
+                                                card_view:tint="@color/light_text"
+                                                >
+                                            </ImageView>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="@string/bar_buttons_dashboard"
+                                            android:textSize="11sp"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/light_text">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.3"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.4"
+                                android:orientation="horizontal"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="7">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/button_test_list"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:backgroundTint="@color/bars_and_fab">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/ic_baseline_format_tests_24"
+                                                card_view:tint="@color/light_text"
+                                                >
+                                            </ImageView>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:textSize="11sp"
+                                            android:textAlignment="center"
+                                            android:text="@string/bar_buttons_tests"
+                                            android:textColor="@color/light_text">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.3"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.4"
+                                android:orientation="horizontal"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="7">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/button_settings"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:backgroundTint="@color/bars_and_fab">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center"
+                                                android:layout_marginTop="5dp"
+                                                android:src="@drawable/ic_baseline_settings_24"
+                                                card_view:tint="@color/light_text"
+                                                >
+                                            </ImageView>
+
+                                        </androidx.cardview.widget.CardView>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="3">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:textSize="11sp"
+                                            android:textAlignment="center"
+                                            android:text="@string/bar_buttons_settings"
+                                            android:textColor="@color/light_text">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"
+                                android:orientation="horizontal"
+                                >
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </Toolbar>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
